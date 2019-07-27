@@ -54,7 +54,7 @@ const getMarkFromRate = (rate) => {
     let mark;
 
     if( rate >= 0 && rate <= 19){
-        return mark = 'F';
+        mark = 'F';
     }
 
     if( rate >= 20 && rate <= 39){
